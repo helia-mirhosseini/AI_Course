@@ -1,46 +1,30 @@
-# Machine Learning Algorithms – Persian Explanatory Notebooks
+# AI_Course – Chapter 1: Core Machine Learning Algorithms
 
-This repository contains a collection of Jupyter notebooks demonstrating key **Machine Learning algorithms** with **step-by-step Persian explanations**.  
-Each notebook focuses on one algorithm, combining theoretical background, implementation in Python, visualization, and interpretation of results.
-
----
-
-## 📘 About the Project
-
-These notebooks are designed as both an educational and reference resource for students and enthusiasts of **Machine Learning**, **Data Science**, and **Artificial Intelligence**.  
-All explanations are written in **Persian (Farsi)** to make complex mathematical and algorithmic concepts more accessible to Persian-speaking learners.
+This folder contains a collection of **Jupyter notebooks** introducing the fundamental **Machine Learning algorithms**, each with **step-by-step code implementation** and **Persian theoretical explanations** for better conceptual understanding.
 
 ---
 
-## 🧠 Algorithms Covered
+## 📘 About Chapter 1
 
-The collection includes (but is not limited to):
+Chapter 1 of the **AI_Course** focuses on the core algorithms used in **supervised learning** and **dimensionality reduction**.  
+Each notebook includes:
 
-| Category | Algorithms |
-|-----------|-------------|
-| **Supervised Learning** | Linear Regression, Logistic Regression, Decision Tree, Random Forest, KNN, SVM |
-| **Unsupervised Learning** | K-Means, DBSCAN, PCA, LDA |
-| **Neural Networks** | Perceptron, Adaline, Multi-Layer Perceptron (MLP) |
-| **Optimization & Evaluation** | Gradient Descent, Confusion Matrix, ROC Curve, Cross-Validation |
-
-Each notebook typically contains:
-1. **Theoretical overview** (in Persian)
-2. **Mathematical formulation**
-3. **Python implementation** using `NumPy`, `pandas`, `scikit-learn`, `matplotlib`
-4. **Visualization** and **result interpretation**
+1. Theoretical overview in **Persian**
+2. Mathematical background and intuition
+3. **Python implementation** using `NumPy`, `pandas`, and `scikit-learn`
+4. **Visualization**, **evaluation**, and **comparison** of model results
 
 ---
 
-## 🗂 Folder Structure
-AI_Course/
-│
-├── README.md
-├── chapter1/
-│   ├── Decision Tree.ipynb
-│   ├── KNN.ipynb
-│   ├── Logistic_Regression.ipynb
-│   ├── PCA_LDA.ipynb
-│   ├── Random Forest.ipynb
-│   └── SVM.ipynb
-└── chapter2/
+## 🧠 Algorithms Included
 
+| Notebook | Topic | Description |
+|-----------|--------|-------------|
+| `Decision Tree.ipynb` | Decision Tree Classifier | Explains entropy, Gini index, pruning, and visual representation of decision paths. |
+| `KNN.ipynb` | K-Nearest Neighbors | Covers distance metrics, K selection, and classification examples. |
+| `Logistic_Regression.ipynb` | Logistic Regression | Explains the relationship between linear and logistic regression for binary/multiclass problems. |
+| `PCA_LDA.ipynb` | PCA & LDA | Compares two dimensionality reduction techniques—Principal Component Analysis and Linear Discriminant Analysis. |
+| `Random Forest.ipynb` | Random Forest | Demonstrates ensemble learning using multiple decision trees to improve accuracy. |
+| `SVM.ipynb` | Support Vector Machine | Introduces margins, kernels, and hyperplanes for classification tasks. |
+
+---
