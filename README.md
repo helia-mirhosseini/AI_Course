@@ -33,3 +33,4 @@ Each notebook typically contains:
 
 ## 🗂 Folder Structure
 
+# AI_Course
