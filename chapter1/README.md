@@ -32,5 +32,15 @@ Each notebook typically contains:
 ---
 
 ## 🗂 Folder Structure
+AI_Course/
+│
+├── README.md
+├── chapter1/
+│   ├── Decision Tree.ipynb
+│   ├── KNN.ipynb
+│   ├── Logistic_Regression.ipynb
+│   ├── PCA_LDA.ipynb
+│   ├── Random Forest.ipynb
+│   └── SVM.ipynb
+└── chapter2/
 
-# AI_Course
