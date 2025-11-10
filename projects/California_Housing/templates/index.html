@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>California Housing – Predict</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <h1>California Housing – Median Value Predictor</h1>
+
+  {% if errors %}
+    <div class="errors">
+      <h3>Please fix the following:</h3>
+      <ul>
+        {% for err in errors %}
+          <li><code>{{ err['loc'] | join('.') }}</code>: {{ err['msg'] }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  <form method="post" class="grid">
+    <label>MedInc <input name="MedInc" type="number" step="0.01" value="4.0"></label>
+    <label>HouseAge <input name="HouseAge" type="number" step="1" value="25"></label>
+    <label>AveRooms <input name="AveRooms" type="number" step="0.1" value="5.5"></label>
+    <label>AveBedrms <input name="AveBedrms" type="number" step="0.1" value="1.0"></label>
+    <label>Population <input name="Population" type="number" step="1" value="1000"></label>
+    <label>Latitude <input name="Latitude" type="number" step="0.0001" value="34.0"></label>
+    <label>Longitude <input name="Longitude" type="number" step="0.0001" value="-118.0"></label>
+
+    <button type="submit">Predict</button>
+  </form>
+
+  <p>Or POST JSON to <code>/predict</code>.</p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <h1>Prediction</h1>
+  <p class="pred">Estimated median value: <strong>${{ '%.3f' % pred }} × 100,000</strong></p>
+
+  <h3>Inputs</h3>
+  <ul>
+    <li>MedInc: {{ feats.MedInc }}</li>
+    <li>HouseAge: {{ feats.HouseAge }}</li>
+    <li>AveRooms: {{ feats.AveRooms }}</li>
+    <li>AveBedrms: {{ feats.AveBedrms }}</li>
+    <li>Population: {{ feats.Population }}</li>
+    <li>Latitude: {{ feats.Latitude }}</li>
+    <li>Longitude: {{ feats.Longitude }}</li>
+  </ul>
+
+  <p><a href="/">Back</a></p>
+</body>
+</html>
