@@ -110,5 +110,5 @@ pip install -r requirements.txt
 ## ✍️ Author
 
 **Helia Mirhosseini**
-Machine Learning Engineer | AI Researcher
+Machine Learning Engineer 
 Creating bilingual educational content and real-world ML applications bridging **theory and practice**.
