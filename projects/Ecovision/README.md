@@ -134,8 +134,6 @@ This project contains specific optimizations for training deep learning models o
 
 ## 📊 Results
 
-*(You can add your screenshots here later)*
-
 * **YOLOv8:** Successfully converged on test data (COCO8/128).
 * **Inference Speed:** Achieving real-time performance (~8ms per image) on M4 Neural Engine.
 
