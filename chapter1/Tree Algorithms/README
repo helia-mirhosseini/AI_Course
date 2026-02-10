@@ -1,5 +1,4 @@
 
-
 # 🌲 The Complete Guide to Tree Algorithms
 
 Welcome to the **Tree Algorithms Module** for the AI Course.
@@ -56,21 +55,17 @@ This module is broken down into **6 sequential notebooks**, each covering a spec
 
 To run these notebooks, you will need Python installed along with the following libraries:
 
-```bash
+
 pip install numpy pandas matplotlib seaborn scikit-learn
 pip install xgboost lightgbm catboost
-
-```
 
 ## 🚀 How to Use
 
 1. Clone this repository.
 2. Navigate to the `chapter1` folder.
 3. Start Jupyter Notebook:
-```bash
-jupyter notebook
 
-```
+jupyter notebook
 
 
 4. Open **Notebook 1** and begin your journey!
