@@ -1,7 +1,3 @@
-Here is the comprehensive `README.md` for the entire **Chapter 4: Recurrent Neural Networks** module. This file acts as the "Table of Contents" and guide for your students, linking all the notebooks together into a cohesive story.
-
----
-
 # 📚 Chapter 4: Recurrent Neural Networks (RNNs)
 
 ## 🌟 Overview
